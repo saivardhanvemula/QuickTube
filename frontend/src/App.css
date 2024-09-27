@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.form{
+  height: 100px;
+  /* width: 400px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form input{
+  height: 47px;
+  width: 450px;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  border: 0;
+  background-color: azure;
+  color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.form button{
+  display: block;
+  height: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
